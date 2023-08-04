@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'sergio';
+    src: url('./a.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.todo {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.mensaje {
+    font-family: 'sergio';
+    font-size: 50px;
+
+
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-fill-color: #ffffff;
+
+
+}
+
+.mensaje h1 {
+    background: #CF76C6;
+    background: linear-gradient(to right, #CF76C6 0%, #FF2908 50%, #00FF00 50%, #F7FF00 50%, #2E53CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+}
+
+.lista-names {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    font-family: sans-serif;
+    margin: 0 10px;
+}
+
+.nenes {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+    text-align: center;
+    width: auto;
+    font-weight: 700;
+}
+
+.ya {
+    text-align: center;
+    font-family: 'sergio';
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-fill-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    /* Quita la subrayado por defecto en los enlaces */
+}
